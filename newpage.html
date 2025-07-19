@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Adoption</title>
+    <style>
+         html {
+            background-image: url('gettyimages-165905060-612x612.jpg'); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+
+        .dog-card {
+            border: 1px solid #ccc;
+            padding: 1em;
+            margin: 1em 0;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .dog-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .dog-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        div{
+            text-align: left;
+            border:3px dashed black;
+        }
+
+        h3 {
+            margin: 0.5em 0;
+            color: #333;
+        }
+
+        p {
+            margin: 0.25em 0;
+            color: #666;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 0.5em 1em;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #062908;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dog Adoption</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url('gettyimages-165905060-612x612.jpg'); 
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+    </header>
+
+    <div class="container">
+        <h2>Available Dogs</h2>
+
+        <div class="dog-card">
+            <h3>Dog Name 1</h3>
+            <p>Age: 2 years</p>
+            <p>Breed: Breed 1</p>
+            <p>Gender: Male</p>
+            <button>Adopt</button>
+        </div>
+
+        <div class="dog-card">
+            <img class="dog-image" src="dog2.jpg" alt="Dog 2">
+            <h3>Dog Name 2</h3>
+            <p>Age: 3 years</p>
+            <p>Breed: Breed 2</p>
+            <p>Gender: Female</p>
+            <button>Adopt</button>
+        </div>
+
+        <!-- Add more dog cards here -->
+
+    </div>
+</body>
+</html> 
